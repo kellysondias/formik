@@ -26,7 +26,6 @@ function App() {
   return (
     <div className="App">
       {/* Componente que traz contextos e outros valores úteis (como "values", "initialValues" e "onSubmit") e outros comps: */
-      /* O schema define como a sua estrutura de dados deve ser respeitada. Se o objeto precisa de uma atributo name como string, por exemplo. Com o schema você consegue fazer uma validação muito melhor. */}
       <Formik
         validationSchema={schema}
         onSubmit={onSubmit}
